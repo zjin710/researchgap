@@ -1,6 +1,12 @@
 # ResearchGap
 
-**Find what hasn't been studied yet.** ResearchGap maps the white space in a research field. It pulls recent papers from OpenAlex, uses Gemini to extract each paper's method, domain, region and stated limitations, then plots a **method x domain** heatmap where empty or thin cells are candidate research gaps. Click a gap to get a suggested research question, the evidence behind it, and papers to start reading.
+ResearchGap addresses the challenge of identifying unexplored areas in academic research. Researchers often need to manually review numerous academic papers to understand existing research methods, domains, and limitations, making it difficult and time-consuming to identify opportunities for further investigation.
+
+We developed ResearchGap, an AI-powered research gap discovery platform that transforms academic literature into actionable insights. The application retrieves recent research papers from OpenAlex and uses Google's Gemini API to extract structured information, including research methods, application domains, and stated limitations.
+
+The extracted information is then visualised through an interactive method-by-domain heatmap, allowing users to identify underexplored combinations of research methods and domains. Users can explore potential research gaps, receive confidence scores, obtain AI-generated research questions, and discover relevant papers as starting points for further investigation.
+
+By integrating academic data retrieval, generative AI, and interactive data visualisation, ResearchGap helps researchers move beyond manually reviewing individual papers towards a more systematic, data-driven approach to identifying research opportunities and supporting informed research decisions.
 
 Hackathon challenge area: **3. Data-Driven Research & Intelligent Decision Making**
 
@@ -31,7 +37,7 @@ streamlit run app.py
 - ~25 abstracts go into each request (50 papers = 2 requests), and the top research questions are drafted in 1 request.
 - Every analysed paper is cached on disk, so re-running a field costs nothing and only missing papers are sent.
 - If the daily quota runs out mid-run, the papers analysed so far are kept and shown; run again after it resets (the message says when).
-- 429 per-minute replies are waited out, 503 overloads are retried, and other Flash models are tried if one is unavailable.
+- 429 per-minute replies are waited out, 503 overloads are retried, and other models are tried if one is unavailable.
 - Tunable via `RG_RPM` (0 on a paid plan), `RG_BATCH_SIZE`, `RG_TIMEOUT_MS`, `RG_MAX_ATTEMPTS`, `RG_GEMINI_MODEL`.
 
 **Save real results for the demo:** in Live mode, open *Download / save data* and click *Save as demo dataset*. This writes `data/saved_<field>.json` (papers + research questions). Commit it to GitHub: in Demo mode it appears in the *Dataset* dropdown and works with no API key and no quota, which is how you should show the deployed app to judges.
@@ -40,7 +46,8 @@ Tests: `python -m pytest -q`
 
 ## Deploy (demo link)
 
-Streamlit Community Cloud: push this repo (including your `data/saved_*.json` files) to GitHub and create an app pointing at `app.py`. Judges can use Demo mode with the saved datasets. Do **not** put your own key in *Secrets* unless you want every visitor's Live run to spend your quota; visitors can paste their own key into the Live sidebar instead. Never commit a key.
+Hosted on Streamlit Community Cloud.
+Demo Link: https://drive.google.com/file/d/1zAGsLZs2Tb-Fkdj9RQdgwXW4jNKCWmeS/view?usp=sharing
 
 ## Project layout
 

@@ -1,0 +1,1747 @@
+{
+ "field": "Student retention analytics",
+ "synthetic": true,
+ "papers": [
+  {
+   "id": "demo:1",
+   "title": "[Sample #1] Random Forest applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "future work should cover vocational training"
+   ]
+  },
+  {
+   "id": "demo:2",
+   "title": "[Sample #2] Random Forest applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "United Kingdom",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:3",
+   "title": "[Sample #3] Random Forest applied to Undergraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:4",
+   "title": "[Sample #4] Random Forest applied to Undergraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": [
+    "deep learning approaches left for future work",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:5",
+   "title": "[Sample #5] Random Forest applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:6",
+   "title": "[Sample #6] Random Forest applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:7",
+   "title": "[Sample #7] Random Forest applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:8",
+   "title": "[Sample #8] Random Forest applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:9",
+   "title": "[Sample #9] Random Forest applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:10",
+   "title": "[Sample #10] Random Forest applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:11",
+   "title": "[Sample #11] Random Forest applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:12",
+   "title": "[Sample #12] Random Forest applied to Online Learning",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:13",
+   "title": "[Sample #13] Random Forest applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:14",
+   "title": "[Sample #14] Random Forest applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:15",
+   "title": "[Sample #15] Random Forest applied to Online Learning",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:16",
+   "title": "[Sample #16] Random Forest applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "United States",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:17",
+   "title": "[Sample #17] Random Forest applied to Online Learning",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Online Learning",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:18",
+   "title": "[Sample #18] Random Forest applied to STEM Courses",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:19",
+   "title": "[Sample #19] Random Forest applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:20",
+   "title": "[Sample #20] Random Forest applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:21",
+   "title": "[Sample #21] Random Forest applied to STEM Courses",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:22",
+   "title": "[Sample #22] Random Forest applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:23",
+   "title": "[Sample #23] Random Forest applied to STEM Courses",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:24",
+   "title": "[Sample #24] Random Forest applied to Postgraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Postgraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:25",
+   "title": "[Sample #25] Random Forest applied to Community College",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Community College",
+   "region": "China",
+   "limitations": [
+    "survival analysis was not explored",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:26",
+   "title": "[Sample #26] Random Forest applied to Community College",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Community College",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:27",
+   "title": "[Sample #27] Random Forest applied to Community College",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Random Forest",
+   "domain": "Community College",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:28",
+   "title": "[Sample #28] Logistic Regression applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:29",
+   "title": "[Sample #29] Logistic Regression applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:30",
+   "title": "[Sample #30] Logistic Regression applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "future work should cover vocational training",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:31",
+   "title": "[Sample #31] Logistic Regression applied to Undergraduate",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:32",
+   "title": "[Sample #32] Logistic Regression applied to Undergraduate",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": [
+    "deep learning approaches left for future work"
+   ]
+  },
+  {
+   "id": "demo:33",
+   "title": "[Sample #33] Logistic Regression applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:34",
+   "title": "[Sample #34] Logistic Regression applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:35",
+   "title": "[Sample #35] Logistic Regression applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Undergraduate",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:36",
+   "title": "[Sample #36] Logistic Regression applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:37",
+   "title": "[Sample #37] Logistic Regression applied to Online Learning",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:38",
+   "title": "[Sample #38] Logistic Regression applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:39",
+   "title": "[Sample #39] Logistic Regression applied to Online Learning",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": [
+    "future work should cover vocational training"
+   ]
+  },
+  {
+   "id": "demo:40",
+   "title": "[Sample #40] Logistic Regression applied to Online Learning",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:41",
+   "title": "[Sample #41] Logistic Regression applied to Online Learning",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": [
+    "deep learning approaches left for future work"
+   ]
+  },
+  {
+   "id": "demo:42",
+   "title": "[Sample #42] Logistic Regression applied to STEM Courses",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:43",
+   "title": "[Sample #43] Logistic Regression applied to STEM Courses",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "STEM Courses",
+   "region": "United Kingdom",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:44",
+   "title": "[Sample #44] Logistic Regression applied to STEM Courses",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:45",
+   "title": "[Sample #45] Logistic Regression applied to STEM Courses",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:46",
+   "title": "[Sample #46] Logistic Regression applied to STEM Courses",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "STEM Courses",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:47",
+   "title": "[Sample #47] Logistic Regression applied to Postgraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Postgraduate",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:48",
+   "title": "[Sample #48] Logistic Regression applied to Postgraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Postgraduate",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:49",
+   "title": "[Sample #49] Logistic Regression applied to Vocational Training",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Vocational Training",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:50",
+   "title": "[Sample #50] Logistic Regression applied to Community College",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Community College",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:51",
+   "title": "[Sample #51] Logistic Regression applied to Community College",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:52",
+   "title": "[Sample #52] Logistic Regression applied to Community College",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Community College",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:53",
+   "title": "[Sample #53] Logistic Regression applied to Community College",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Logistic Regression",
+   "domain": "Community College",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "limited evidence for postgraduate cohorts",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:54",
+   "title": "[Sample #54] Deep Learning applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:55",
+   "title": "[Sample #55] Deep Learning applied to Undergraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:56",
+   "title": "[Sample #56] Deep Learning applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": [
+    "deep learning approaches left for future work"
+   ]
+  },
+  {
+   "id": "demo:57",
+   "title": "[Sample #57] Deep Learning applied to Undergraduate",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:58",
+   "title": "[Sample #58] Deep Learning applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:59",
+   "title": "[Sample #59] Deep Learning applied to Undergraduate",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:60",
+   "title": "[Sample #60] Deep Learning applied to Online Learning",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:61",
+   "title": "[Sample #61] Deep Learning applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "United States",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:62",
+   "title": "[Sample #62] Deep Learning applied to Online Learning",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:63",
+   "title": "[Sample #63] Deep Learning applied to Online Learning",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:64",
+   "title": "[Sample #64] Deep Learning applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:65",
+   "title": "[Sample #65] Deep Learning applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:66",
+   "title": "[Sample #66] Deep Learning applied to Online Learning",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:67",
+   "title": "[Sample #67] Deep Learning applied to Online Learning",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:68",
+   "title": "[Sample #68] Deep Learning applied to Online Learning",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Online Learning",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:69",
+   "title": "[Sample #69] Deep Learning applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "STEM Courses",
+   "region": "United States",
+   "limitations": [
+    "community college populations are under-represented",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:70",
+   "title": "[Sample #70] Deep Learning applied to STEM Courses",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "STEM Courses",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:71",
+   "title": "[Sample #71] Deep Learning applied to STEM Courses",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:72",
+   "title": "[Sample #72] Deep Learning applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:73",
+   "title": "[Sample #73] Deep Learning applied to Community College",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Deep Learning",
+   "domain": "Community College",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:74",
+   "title": "[Sample #74] Survey applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:75",
+   "title": "[Sample #75] Survey applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:76",
+   "title": "[Sample #76] Survey applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:77",
+   "title": "[Sample #77] Survey applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:78",
+   "title": "[Sample #78] Survey applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:79",
+   "title": "[Sample #79] Survey applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:80",
+   "title": "[Sample #80] Survey applied to Undergraduate",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:81",
+   "title": "[Sample #81] Survey applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:82",
+   "title": "[Sample #82] Survey applied to Online Learning",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:83",
+   "title": "[Sample #83] Survey applied to Online Learning",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Online Learning",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:84",
+   "title": "[Sample #84] Survey applied to STEM Courses",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "STEM Courses",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:85",
+   "title": "[Sample #85] Survey applied to STEM Courses",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "STEM Courses",
+   "region": "United States",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:86",
+   "title": "[Sample #86] Survey applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "STEM Courses",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:87",
+   "title": "[Sample #87] Survey applied to STEM Courses",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:88",
+   "title": "[Sample #88] Survey applied to Postgraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:89",
+   "title": "[Sample #89] Survey applied to Postgraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:90",
+   "title": "[Sample #90] Survey applied to Postgraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "limited evidence for postgraduate cohorts",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:91",
+   "title": "[Sample #91] Survey applied to Postgraduate",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "survival analysis was not explored",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:92",
+   "title": "[Sample #92] Survey applied to Postgraduate",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:93",
+   "title": "[Sample #93] Survey applied to Postgraduate",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Postgraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:94",
+   "title": "[Sample #94] Survey applied to Vocational Training",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Vocational Training",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "future work should cover vocational training"
+   ]
+  },
+  {
+   "id": "demo:95",
+   "title": "[Sample #95] Survey applied to Vocational Training",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Vocational Training",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:96",
+   "title": "[Sample #96] Survey applied to Vocational Training",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Vocational Training",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:97",
+   "title": "[Sample #97] Survey applied to Vocational Training",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Vocational Training",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:98",
+   "title": "[Sample #98] Survey applied to Community College",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Community College",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:99",
+   "title": "[Sample #99] Survey applied to Community College",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Community College",
+   "region": "United States",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:100",
+   "title": "[Sample #100] Survey applied to Community College",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": [
+    "future work should cover vocational training",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:101",
+   "title": "[Sample #101] Survey applied to Community College",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": [
+    "future work should cover vocational training",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:102",
+   "title": "[Sample #102] Survey applied to Community College",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survey",
+   "domain": "Community College",
+   "region": "Malaysia",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:103",
+   "title": "[Sample #103] Case Study applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Undergraduate",
+   "region": "United Kingdom",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:104",
+   "title": "[Sample #104] Case Study applied to Undergraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Undergraduate",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:105",
+   "title": "[Sample #105] Case Study applied to Undergraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Undergraduate",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:106",
+   "title": "[Sample #106] Case Study applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:107",
+   "title": "[Sample #107] Case Study applied to Online Learning",
+   "year": 2024,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Online Learning",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:108",
+   "title": "[Sample #108] Case Study applied to Online Learning",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": []
+  },
+  {
+   "id": "demo:109",
+   "title": "[Sample #109] Case Study applied to STEM Courses",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:110",
+   "title": "[Sample #110] Case Study applied to STEM Courses",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "STEM Courses",
+   "region": "Malaysia",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:111",
+   "title": "[Sample #111] Case Study applied to STEM Courses",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "STEM Courses",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:112",
+   "title": "[Sample #112] Case Study applied to Postgraduate",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Postgraduate",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:113",
+   "title": "[Sample #113] Case Study applied to Postgraduate",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Postgraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:114",
+   "title": "[Sample #114] Case Study applied to Postgraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Postgraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:115",
+   "title": "[Sample #115] Case Study applied to Postgraduate",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Postgraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "survival analysis was not explored",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:116",
+   "title": "[Sample #116] Case Study applied to Postgraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Postgraduate",
+   "region": "India",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:117",
+   "title": "[Sample #117] Case Study applied to Vocational Training",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Vocational Training",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "community college populations are under-represented"
+   ]
+  },
+  {
+   "id": "demo:118",
+   "title": "[Sample #118] Case Study applied to Vocational Training",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Vocational Training",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:119",
+   "title": "[Sample #119] Case Study applied to Vocational Training",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Vocational Training",
+   "region": "United Kingdom",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:120",
+   "title": "[Sample #120] Case Study applied to Vocational Training",
+   "year": 2021,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Vocational Training",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:121",
+   "title": "[Sample #121] Case Study applied to Vocational Training",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Vocational Training",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:122",
+   "title": "[Sample #122] Case Study applied to Community College",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:123",
+   "title": "[Sample #123] Case Study applied to Community College",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:124",
+   "title": "[Sample #124] Case Study applied to Community College",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Community College",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:125",
+   "title": "[Sample #125] Case Study applied to Community College",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Case Study",
+   "domain": "Community College",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:126",
+   "title": "[Sample #126] Clustering applied to Undergraduate",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:127",
+   "title": "[Sample #127] Clustering applied to Undergraduate",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Undergraduate",
+   "region": "China",
+   "limitations": [
+    "future work should cover vocational training"
+   ]
+  },
+  {
+   "id": "demo:128",
+   "title": "[Sample #128] Clustering applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Undergraduate",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:129",
+   "title": "[Sample #129] Clustering applied to Undergraduate",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Undergraduate",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:130",
+   "title": "[Sample #130] Clustering applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Undergraduate",
+   "region": "United Kingdom",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:131",
+   "title": "[Sample #131] Clustering applied to Online Learning",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Online Learning",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "community college populations are under-represented",
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:132",
+   "title": "[Sample #132] Clustering applied to Online Learning",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Online Learning",
+   "region": "India",
+   "limitations": []
+  },
+  {
+   "id": "demo:133",
+   "title": "[Sample #133] Clustering applied to Online Learning",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Online Learning",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:134",
+   "title": "[Sample #134] Clustering applied to Online Learning",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Online Learning",
+   "region": "Malaysia",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:135",
+   "title": "[Sample #135] Clustering applied to STEM Courses",
+   "year": 2020,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "STEM Courses",
+   "region": "United Kingdom",
+   "limitations": []
+  },
+  {
+   "id": "demo:136",
+   "title": "[Sample #136] Clustering applied to STEM Courses",
+   "year": 2023,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "STEM Courses",
+   "region": "United Kingdom",
+   "limitations": [
+    "survival analysis was not explored"
+   ]
+  },
+  {
+   "id": "demo:137",
+   "title": "[Sample #137] Clustering applied to Vocational Training",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Vocational Training",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:138",
+   "title": "[Sample #138] Clustering applied to Community College",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Community College",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:139",
+   "title": "[Sample #139] Clustering applied to Community College",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Clustering",
+   "domain": "Community College",
+   "region": "China",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  },
+  {
+   "id": "demo:140",
+   "title": "[Sample #140] Survival Analysis applied to Undergraduate",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survival Analysis",
+   "domain": "Undergraduate",
+   "region": "United States",
+   "limitations": []
+  },
+  {
+   "id": "demo:141",
+   "title": "[Sample #141] Survival Analysis applied to Undergraduate",
+   "year": 2019,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survival Analysis",
+   "domain": "Undergraduate",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "limited evidence for postgraduate cohorts"
+   ]
+  },
+  {
+   "id": "demo:142",
+   "title": "[Sample #142] Survival Analysis applied to STEM Courses",
+   "year": 2025,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survival Analysis",
+   "domain": "STEM Courses",
+   "region": "Global/Unspecified",
+   "limitations": []
+  },
+  {
+   "id": "demo:143",
+   "title": "[Sample #143] Survival Analysis applied to Community College",
+   "year": 2022,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survival Analysis",
+   "domain": "Community College",
+   "region": "Malaysia",
+   "limitations": []
+  },
+  {
+   "id": "demo:144",
+   "title": "[Sample #144] Survival Analysis applied to Community College",
+   "year": 2026,
+   "abstract": "Synthetic demo record.",
+   "url": "https://example.org/synthetic-demo",
+   "method": "Survival Analysis",
+   "domain": "Community College",
+   "region": "Global/Unspecified",
+   "limitations": [
+    "small single-institution sample"
+   ]
+  }
+ ]
+}

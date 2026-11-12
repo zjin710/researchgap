@@ -47,6 +47,7 @@ Tests: `python -m pytest -q`
 ## Deploy (demo link)
 
 Hosted on Streamlit Community Cloud.
+
 Demo Link: https://drive.google.com/file/d/1zAGsLZs2Tb-Fkdj9RQdgwXW4jNKCWmeS/view?usp=sharing
 
 ## Project layout

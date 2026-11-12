@@ -73,10 +73,7 @@ with st.sidebar:
         field_in = st.text_input("Research field / keywords", "student retention prediction")
         limit = st.slider("Papers to analyse", 10, 50, 10, step=10)
         n_req = -(-limit // BATCH_SIZE) + 1  # abstract batches + 1 request for the research questions
-        st.caption(
-            f"≈ {n_req} Gemini requests. The free tier is tiny (about 20 requests/day per model), "
-            "so papers already analysed are cached and cost nothing next time."
-        )
+        
         since = st.number_input("Published since", 2015, 2026, 2019)
         typed = st.text_input(
             "Gemini API key",

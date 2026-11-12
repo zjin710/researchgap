@@ -35,7 +35,7 @@ TIMEOUT_MS = int(os.environ.get("RG_TIMEOUT_MS", "90000"))  # per request (batch
 MAX_ATTEMPTS = int(os.environ.get("RG_MAX_ATTEMPTS", "3"))  # per model
 BACKOFF_S = 1.5  # doubles each attempt (for 5xx/timeouts)
 MAX_WAIT_S = 70  # never sleep longer than this for one retry
-MAX_FALLBACK_MODELS = 2
+MAX_FALLBACK_MODELS = 6
 RETRYABLE = {429, 500, 502, 503, 504}
 
 BATCH_PROMPT = """You are analysing {n} academic paper abstracts for a research-gap map of the field "{field}".
@@ -177,6 +177,68 @@ def _discover_fallbacks(client, exclude: str) -> list[str]:
     except Exception:
         return []
     return sorted(set(found), reverse=True)[:MAX_FALLBACK_MODELS]
+
+
+# Models confirmed to have positive free-tier quotas
+# Priority: higher daily quota first, then regular Flash models.
+FREE_TIER_FALLBACK_PRIORITY = [
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash-lite",
+    "gemini-3.6-flash",
+    "gemini-3-flash",
+    "gemini-2.5-flash",
+]
+
+def _discover_fallbacks(client, exclude: str) -> list[str]:
+    """Discover supported Flash models with confirmed free-tier quotas."""
+
+    skip = (
+        "image", "tts", "audio", "live", "embed",
+        "vision", "robotics", "computer", "customtools",
+        "omni", "pro"
+    )
+
+    exclude = (exclude or "").removeprefix("models/").lower()
+
+    found = set()
+
+    try:
+        for m in client.models.list():
+            name = (
+                getattr(m, "name", "") or ""
+            ).removeprefix("models/")
+
+            normalized = name.lower()
+
+            if normalized == exclude:
+                continue
+
+            if normalized not in FREE_TIER_FALLBACK_PRIORITY:
+                continue
+
+            if any(s in normalized for s in skip):
+                continue
+
+            actions = getattr(m, "supported_actions", None) or []
+
+            if actions and "generateContent" not in actions:
+                continue
+
+            found.add(normalized)
+
+    except Exception as e:
+        print(f"Model discovery failed: {e}")
+        return []
+
+    # Preserve explicitly configured priority
+    ordered = [
+        model
+        for model in FREE_TIER_FALLBACK_PRIORITY
+        if model in found
+    ]
+
+    return ordered[:MAX_FALLBACK_MODELS]
 
 
 def llm_generate(client, contents, config=None):

@@ -4,7 +4,7 @@ from __future__ import annotations
 import requests
 
 API = "https://api.openalex.org/works"
-MAILTO = "researchgap-hackathon@example.com"  # polite-pool identifier; replace with your team email
+MAILTO = "sweezhijin@gmail.com"  # polite-pool identifier;
 
 
 def _abstract_from_inverted(inv: dict | None) -> str:
